@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -14,44 +19,41 @@ a {
  }
 .header {
     display: flex;
-    height: 150px;
     background-color: #1f2937;
     justify-content: space-around;
-    width: auto;
+    align-items: center;
 }
 .logo {
-
     font-size: 24px;
     color: #f9faf8;
 }
 .nav { 
-    justify-content: flex-end;
+ 
 }
 .hero {
     display: flex;
     background-color: #1f2937;
     height: 430px;
     justify-content: space-around;
+    align-items: center;
 }
 .hero-img {
-    justify-content: flex-end;
-    height: 247px;
-    width: 586px;
 }
 .hero-text {
-    justify-content: space-around;
     background-color: #1f2937;
-    height: 280px;
     font-size: 48px;
     font-weight: 900px;
     color: #f9faf8;
     width: 400px;
     size: 18px;
+    align-self: center;
+    line-height: 1.1;
 }
 .hero-disc {
     display: flex;
 font-size: 18px;
 color: #e5e7eb;
+align-self: start;
 }
 .sec3 {
     display: flex;
@@ -73,3 +75,37 @@ button {
     padding-right: 20px;
     border-radius: 15px;
 }
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1 {
+    width: 130px;
+    height: 130px;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-radius: 8%;
+    border-style: solid;
+    gap: 15px;
+}
+.box-disc {
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.bdisc {
+    max-width: 130px;
+    padding-top: 10px;
+}
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 15px;
+    padding-bottom: 25px;
+}
+   
