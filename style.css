@@ -22,22 +22,25 @@ a {
     background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
+    gap:110px;
 }
 .logo {
     font-size: 24px;
     color: #f9faf8;
 }
 .nav { 
- 
+    
 }
 .hero {
     display: flex;
     background-color: #1f2937;
     height: 430px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap:110px;
 }
 .hero-img {
+    align-self: center;
 }
 .hero-text {
     background-color: #1f2937;
@@ -48,6 +51,7 @@ a {
     size: 18px;
     align-self: center;
     line-height: 1.1;
+    padding-top: 70px;
 }
 .hero-disc {
     display: flex;
@@ -55,15 +59,21 @@ font-size: 18px;
 color: #e5e7eb;
 align-self: start;
 }
-.sec3 {
+
+.qoute {
+    flex-direction: column;
     display: flex;
-    background-color: #0c0d0d;
-    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b8b8;
+    padding: 70px 300px;
+    font-size: 36px;
+    font-weight: light;
+
 }
-.sec4 {
-    display: flex;
-    background-color: #393428;
-    height: 150px;
+.saidby {
+align-items: end;
+
 }
 button {
     background-color: #3882f6;
@@ -77,13 +87,15 @@ button {
 }
 .boxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap:60px;
+    
 }
 .box1 {
-    width: 130px;
-    height: 130px;
+    width: 155px;
+    height: 155px;
     border-color: #3882f6;
     border-width: 2px;
     border-radius: 8%;
@@ -92,11 +104,13 @@ button {
 }
 .box-disc {
     display: flex;
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
+padding-bottom: 70px;
+gap:60px;
 }
 .bdisc {
-    max-width: 130px;
+    max-width: 155px;
     padding-top: 10px;
 }
 .info-header {
@@ -106,6 +120,24 @@ align-items: center;
     font-weight: 900;
     font-size: 36px;
     margin: 15px;
-    padding-bottom: 25px;
+    padding:30px;
+}
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 140px;
+}
+.calldisc {
+    border-style: solid;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: #fff;
+    padding: 50px 100px;
+
+}
+.ctabtn {
+    display: flex;
+    align-self: end;
 }
    
