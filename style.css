@@ -65,14 +65,16 @@ align-self: start;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b8b8b8;
+    background-color: #E5E7EB;
     padding: 70px 300px;
     font-size: 36px;
     font-weight: light;
+    color: #1f2937;
 
 }
 .saidby {
-align-items: end;
+    display: flex;
+align-items: flex-end;
 
 }
 button {
@@ -97,7 +99,7 @@ button {
     width: 155px;
     height: 155px;
     border-color: #3882f6;
-    border-width: 2px;
+    border-width: 5px;
     border-radius: 8%;
     border-style: solid;
     gap: 15px;
@@ -124,20 +126,41 @@ gap:60px;
 }
 .calltoaction {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 70px 140px;
 }
 .calldisc {
     border-style: solid;
     background-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #fff;
     padding: 50px 100px;
+    font-size: 32px;
+
+}
+.sbtn {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color:#ffffff;
+    font-size: 18px;
+    padding-left: 120px;
+    border-radius: 15px;
 
 }
 .ctabtn {
+    display:flex;
+    align-self: flex-end;
+}
+.footer {
     display: flex;
-    align-self: end;
+    background-color: #1f2937;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
 }
    
